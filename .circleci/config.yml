@@ -6,7 +6,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-- run: echo "Back to success"
+      - run: echo "Back to success"
 
 workflows:
   hello-workflow:
